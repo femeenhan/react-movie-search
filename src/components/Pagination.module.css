@@ -1,0 +1,28 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 0 5px;
+}
+.pagination .num_btn {
+  padding: 0 10px;
+  height: 30px;
+  border: 1px solid #666;
+  min-width: 30px;
+}
+.pagination .num_btn.active {
+  background: #333;
+  color: #fff;
+}
+.pagination .prev_btn {
+  padding: 0 10px;
+  height: 30px;
+  border: 1px solid #666;
+  min-width: 30px;
+}
+.pagination .next_btn {
+  padding: 0 10px;
+  height: 30px;
+  border: 1px solid #666;
+  min-width: 30px;
+}
